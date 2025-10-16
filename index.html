@@ -3,89 +3,112 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Eva | AI & Data Science</title>
+  <title>Eva M. | AI & Data Science</title>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
+  <!-- NAVIGATION -->
   <header class="navbar">
     <div class="container">
-      <h1 class="logo">Eva</h1>
+      <h1 class="logo">Eva M.</h1>
       <nav>
         <ul>
           <li><a href="#about">About</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact</a></li>
+          <li><a href="cv.pdf" target="_blank">CV</a></li>
+          <li><a href="https://github.com/evaklmsa" target="_blank">GitHub</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
-  <main>
-    <section id="hero">
-      <div class="container">
-        <h2>AI & Data Science Researcher</h2>
-        <p class="tagline">Developing interpretable graph neural networks for clinical decision support and drug–drug interaction prediction.</p>
-        <div class="cta">
-          <a href="cv.pdf" target="_blank" class="button">View CV</a>
-          <a href="mailto:evaklmsa@gmail.com" class="button-outline">Contact</a>
-        </div>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="container">
+      <h2>AI & Data Science Researcher</h2>
+      <p class="tagline">
+        Developing interpretable graph neural networks for clinical decision support  
+        and drug–drug interaction prediction.
+      </p>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About</h2>
+      <p>
+        I’m a data-driven researcher with a B.Sc. in Industrial Engineering (GPA 3.8/4.0) from  
+        Amirkabir University of Technology (Tehran Polytechnic).  
+        My research focuses on building interpretable AI for healthcare — especially Graph Neural Networks  
+        for modeling medication safety and predicting potential drug–drug interactions using MIMIC-IV.
+      </p>
+      <p>
+        My work bridges deep learning, clinical data modeling, and interpretability — transforming EHR data  
+        into actionable insights for physicians and researchers.
+      </p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <h2>Selected Projects</h2>
+
+    <div class="project-grid">
+
+      <div class="card">
+        <h3>Drug–Drug Interaction Prediction with Graph Neural Networks</h3>
+      <p>
+        Developing an interpretable medication recommendation system using multi-relational graph architectures 
+        to learn patient–drug–lab dependencies from the MIMIC-IV electronic health record dataset. 
+      </p>
+
       </div>
-    </section>
 
-    <section id="about" class="section">
-      <div class="container">
-        <h2>About</h2>
+      <div class="card">
+        <h3>Medication Recommendation via Graph-Based Learning</h3>
         <p>
-          I’m a data-driven researcher with a B.Sc. in Industrial Engineering (GPA 3.8/4.0) from Amirkabir University of Technology (Tehran Polytechnic). 
-          My research focuses on building interpretable AI for healthcare — particularly using Graph Neural Networks to model medication safety and predict potential drug–drug interactions in MIMIC-IV and real-world datasets.
-        </p>
-        <p>
-          My work bridges deep learning, clinical data modeling, and interpretability — aiming to turn complex EHR data into actionable insights for physicians and researchers.
+          Developing an interpretable medication recommendation system using multi-relational graph architectures 
+          to learn patient–drug–lab dependencies. The project emphasizes reliability through confidence calibration 
+          and clinical context alignment.
         </p>
       </div>
-    </section>
 
-    <section id="projects" class="section">
-      <div class="container">
-        <h2>Selected Projects</h2>
-
-        <div class="project-grid">
-          <div class="card">
-            <h3>Drug–Drug Interaction Prediction with GNNs</h3>
-            <p>
-              Ongoing research on leveraging graph-based architectures to model pharmacological relationships 
-              and identify potential drug–drug interactions with high interpretability and calibration reliability.
-            </p>
-            <a href="https://github.com/YOURUSERNAME/ddi-gnn" target="_blank">View Project →</a>
-          </div>
-
-          <div class="card">
-            <h3>CheXpert Multi-Label Classification</h3>
-            <p>
-              Ensemble CNN pipeline (DenseNet121, EfficientNet-B0) for chest X-ray disease detection with Grad-CAM++ and temperature calibration.
-            </p>
-            <a href="https://github.com/YOURUSERNAME/chexpert" target="_blank">View Project →</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact" class="section">
-      <div class="container">
-        <h2>Get in Touch</h2>
+      <div class="card">
+        <h3>CheXpert Multi-Label Classification</h3>
         <p>
-          Open to collaborations and research discussions in AI for healthcare, graph learning, and model interpretability.
+          Designed an ensemble of CNN architectures for multi-disease 
+          chest X-ray classification, integrating Grad-CAM++ visualization and calibration 
+          for transparent medical AI decision-making.
         </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Get in Touch</h2>
+      <p>
+        Open to collaborations and research discussions in AI for healthcare,  
+        graph learning, and model interpretability.
+      </p>
+      <div class="contact-btn-wrapper">
         <a href="mailto:evaklmsa@gmail.com" class="button">Send an Email</a>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
   <footer>
     <div class="container">
-      © 2025 Eva | Hosted on GitHub Pages
+      © 2025 Eva M.| Hosted on GitHub Pages
     </div>
   </footer>
 </body>
